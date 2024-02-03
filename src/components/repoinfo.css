@@ -1,0 +1,65 @@
+.repo-info {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.repo-info h2 {
+  color: #d6e2f0;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+
+.repo-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repo-info li {
+  background-color: #a9b7c2;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 15px;
+  color: #010109;
+  box-shadow: 0.2px 4px rgba(196, 183, 183, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.repo-info li:hover {
+  box-shadow: 0.4px 6px rgba(196, 183, 183, 0.4);
+}
+
+.repo-info li div {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.repo-info li span {
+  display: block;
+  margin-top: 10px;
+  color: #010109;
+}
+
+.repo-info li article {
+  /* margin-top: 8px; */
+  color: #18191b;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.repo-info li small a {
+  margin-top: 8px;
+  display: inline-block;
+  text-decoration: none;
+  color: #11065a;
+  cursor: pointer;
+}
+
+.repo-info li small a:hover {
+  text-decoration: underline;
+}
